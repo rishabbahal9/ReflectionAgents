@@ -43,15 +43,14 @@ print(graph.get_graph().draw_mermaid())
 graph.get_graph().print_ascii()
 
 if __name__ == "__main__":
-    print("Hello LangGraph")
+    print("Processing...")
     inputs = HumanMessage(
         content="""Make this tweet better:"
-                                    @LangChainAI
-            — newly Tool Calling feature is seriously underrated.
-
-            After a long wait, it's  here- making the implementation of agents across different models with function calling - super easy.
-
-            Made a video covering their newest blog post
+        Reflection and Reflexion both are a prompting strategy used to improve the quality and success rate of agents and similar AI systems.
+I have been working on them with LangGraph, see the GitHub repos below: 
+Reflection: link
+Reflexion: link
+#LangChain #LangGraph #OpenAI #LLM
 
                                   """
     )
